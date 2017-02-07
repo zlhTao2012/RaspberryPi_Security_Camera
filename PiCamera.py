@@ -14,7 +14,7 @@ import Image_Rotate as Image_Rotate
  
 VIDEO_DAYS = 1 # How many days of picture capturing
 FREQ = 60 # Frequency in minute of picture capturing in VIDEO_DAYS, must be integer
-FRAMES = FREQ * 24 * VIDEO_DAYS
+FRAMES = VIDEO_DAYS * 24 * 60 / FREQ
 
 # Function of capture picture
 def capture_frame(pic_name):
