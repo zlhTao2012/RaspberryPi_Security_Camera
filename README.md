@@ -4,7 +4,7 @@ Python codes to set up a Respberry Pi security camera with Gmail notification.
 
 The idea of this project is from Christian Cawley's article (http://www.makeuseof.com/tag/raspberry-pi-camera-module/). The capture image code in "PiCamera.py" is adapted from python codes in Christian Cawley's article.
 
-Instruction:
+Instructions:
 
 1. Enable the Respberry Pi Camera:
    At the command line, enter "sudo raspi-config". In the menu select Enable Camera, then Finish and Yes to reboot.
