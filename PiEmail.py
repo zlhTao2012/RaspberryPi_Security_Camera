@@ -12,7 +12,6 @@ import smtplib
 from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import datetime
 
 def email_pic(pic_name):
 
