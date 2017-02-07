@@ -23,7 +23,7 @@ Instructions:
    
 
  
-Reference:
+References:
 
 http://www.makeuseof.com/tag/raspberry-pi-camera-module/
 
