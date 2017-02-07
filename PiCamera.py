@@ -13,7 +13,7 @@ import PiEmail as PiEmail
 import Image_Rotate as Image_Rotate
  
 VIDEO_DAYS = 1 # How many days of picture capturing
-FREQ = 1 # Frequency of picture capturing in VIDEO_DAYS, must be integer from 1 to 60
+FREQ = 60 # Frequency in minute of picture capturing in VIDEO_DAYS, must be integer from 1 to 60
 
 FREQ_TO_HOUR_FACTOR = 60 / FREQ # Factor of FREQ to HOUR
 FRAMES = FREQ * FREQ_TO_HOUR_FACTOR * 24 * VIDEO_DAYS
