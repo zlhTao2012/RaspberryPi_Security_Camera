@@ -7,7 +7,7 @@ The idea of this project is from Christian Cawley's article (http://www.makeuseo
 Instructions:
 
 1. Enable the Respberry Pi Camera:
-   At the command line, enter "sudo raspi-config". In the menu select Enable Camera, then Finish and Yes to reboot.
+   At the command line, enter "sudo raspi-config". In the menu select Enable Camera, then "Finish" and "Yes" to reboot.
    
 2. Install the Python support for the camera:
    At the command line, enter "sudo apt-get install python-picamera python3-picamera". Once done, enter "sudo reboot".
