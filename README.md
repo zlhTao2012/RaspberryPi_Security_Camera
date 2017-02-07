@@ -33,3 +33,4 @@ https://docs.python.org/2/library/email-examples.html
 
 http://raspberrypi.stackexchange.com/questions/8734/execute-script-on-start-up
     
+https://www.dexterindustries.com/howto/auto-run-python-programs-on-the-raspberry-pi/
