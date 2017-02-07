@@ -15,8 +15,8 @@ Instructions:
 3. Update the python codes: 
    Change sender's Gmail address & password and receiver's email address in "PiEmail.py". You can also customize the frequency of capturing the picture in "PiCamera.py". Please noted that, don't set to high frequency, such as "FREQ = 1", otherwise Google will block your gmail account. Default frequency is 60 minutes. 
  
-4. Prepare python codes and executable script:
-   Create a folder named "PiCamera" on your Respberry Pi desktop, and copy the "Image_Rotate.py", "PiEmail.py", "PiCamera.py" and "PiCamera.sh" into the "PiCamera" folder.
+4. Prepare python codes:
+   Create a folder named "PiCamera" on your Respberry Pi desktop, and copy the "Image_Rotate.py", "PiEmail.py" and "PiCamera.py" into the "PiCamera" folder.
 
 5. Startup script:
    At the command line, enter "sudo crontab -e". Scroll down to the very bottom and add an entry starting with @reboot: "@reboot sudo python /home/pi/Desktop/PiCamera/Image_Rotate.py & sudo python /home/pi/Desktop/PiCamera/PiEmail.py & sudo python /home/pi/Desktop/PiCamera/PiCamera.py". Once done, save and exit: press keys "Ctrl"+"X" -> "Y" -> "Enter" in order. When restart the pi, the command will be run.
