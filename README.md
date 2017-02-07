@@ -18,7 +18,7 @@ Instruction:
    Create a folder named "PiCamera" on your Respberry Pi desktop, and copy the "Image_Rotate.py", "PiEmail.py", "PiCamera.py" and "PiCamera.sh" into the "PiCamera" folder.
 
 5. Add script executable command to the bottom of ".bashrc" that will run "PiCamera.sh" every time you log in:
-   At the command line, enter "cd ~" to make sure you are in the pi folder. Then enter "sudo nano .bashrc". Scroll down to the bottom and add the line: ./Desktop/PiCamera/PiCamera.sh. Once done, save and exit: press keys "Ctrl"+"X" -> "Y" -> "Enter" in order.
+   At the command line, enter "cd ~" to make sure you are in the pi folder. Then enter "sudo nano .bashrc". Scroll down to the bottom and add the line: "./Desktop/PiCamera/PiCamera.sh". Once done, save and exit: press keys "Ctrl"+"X" -> "Y" -> "Enter" in order.
  
  
 Reference:
