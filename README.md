@@ -18,9 +18,10 @@ Instructions:
 4. Prepare python codes and executable script:
    Create a folder named "PiCamera" on your Respberry Pi desktop, and copy the "Image_Rotate.py", "PiEmail.py", "PiCamera.py" and "PiCamera.sh" into the "PiCamera" folder.
 
-5. Add script executable command to the bottom of ".bashrc" that will run "PiCamera.sh" every time you log in:
-   At the command line, enter "cd ~" to make sure you are in the pi folder. Then enter "sudo nano .bashrc". Scroll down to the bottom and add the line: ./Desktop/PiCamera/PiCamera.sh. Once done, save and exit: press keys "Ctrl"+"X" -> "Y" -> "Enter" in order.
- 
+5. Startup script:
+   At the command line, enter "sudo crontab -e". Scroll down to the very bottom and add an entry starting with @reboot: "@reboot sudo python /home/pi/Desktop/PiCamera/Image_Rotate.py & sudo python /home/pi/Desktop/PiCamera/PiEmail.py & sudo python /home/pi/Desktop/PiCamera/PiCamera.py". Once done, save and exit: press keys "Ctrl"+"X" -> "Y" -> "Enter" in order. When restart the pi, the command will be run.
+   
+
  
 Reference:
 
