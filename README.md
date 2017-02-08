@@ -19,7 +19,7 @@ Instructions:
    Create a folder named "PiCamera" on your Respberry Pi desktop, and copy the "Image_Rotate.py", "PiEmail.py" and "PiCamera.py" into the "PiCamera" folder.
 
 5. Startup script:
-   At the command line, enter "sudo crontab -e". Scroll down to the very bottom and add an entry starting with @reboot: "@reboot sudo python /home/pi/Desktop/PiCamera/Image_Rotate.py & sudo python /home/pi/Desktop/PiCamera/PiEmail.py & sudo python /home/pi/Desktop/PiCamera/PiCamera.py". Once done, save and exit: press keys "Ctrl"+"X" -> "Y" -> "Enter" in order. When restart the pi, the command will be run.
+   At the command line, enter "sudo crontab -e". Scroll down to the very bottom and add an entry starting with @reboot: "@reboot sudo python /home/pi/Desktop/PiCamera/PiCamera.py". Once done, save and exit: press keys "Ctrl"+"X" -> "Y" -> "Enter" in order. When restart the pi, the command will be run.
    
 
  
