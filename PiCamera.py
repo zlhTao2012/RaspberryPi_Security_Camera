@@ -29,8 +29,8 @@ def capture_frame(pic_name):
 # Capture the images
 for frame in range(int(FRAMES)):
 
-	# Delete any previous left photos
-	os.system('rm -rf /home/pi/Desktop/PiCamera/PiCamera_Photos/*')
+    # Delete any previous left photos
+    os.system('rm -rf /home/pi/Desktop/PiCamera/PiCamera_Photos/*')
 
     # Note the time before the capture
     start = time.time() 
